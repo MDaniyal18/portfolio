@@ -19,7 +19,7 @@
 }
 
 /* Dark mode styles */
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
     --bg-color: #121212; /* Dark mode background */
     --second-bg-color: #323946; /* Dark mode secondary background */
@@ -67,6 +67,10 @@ section {
   font-size: 3.6rem;
   color: var(--text-color);
   display: none;
+}
+
+.navbar {
+  display: flex;
 }
 
 .navbar a {
@@ -162,6 +166,45 @@ span {
 
 .btn:hover {
   box-shadow: 0 0 1rem var(--main-color);
+}
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    background-color: var(--bg-color);
+    padding: 1rem 0;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
+  }
+
+  .navbar.active {
+    display: flex;
+  }
+
+  .navbar a {
+    margin: 1rem 0;
+    font-size: 1.6rem;
+  }
+
+  #menu-icon {
+    display: block;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 60%;
+  }
+
+  .home-content h1 {
+    font-size: 2.5rem;
+  }
 }
 
 .about {
