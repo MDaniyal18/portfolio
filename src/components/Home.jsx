@@ -66,10 +66,10 @@ const Home = () => {
           </p>
 
           <div className="social-media">
-            <a href="https://www.facebook.com/profile.php?id=100005643679050"><i className="bx bxl-facebook"></i></a>
-            <a href="https://www.instagram.com/mohammad_daniyal18"><i className="bx bxl-instagram-alt"></i></a>
-            <a href="https://www.x.com/m_daniyal011"><i className="bx bxl-twitter"></i></a>
-            <a href="https://www.linkedin.com/in/mohammaddaniaylsidiquie"><i className="bx bxl-linkedin"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100005643679050" target="_blank" rel="noopener noreferrer"><i className="bx bxl-facebook"></i></a>
+            <a href="https://www.instagram.com/mohammad_daniyal18" target="_blank" rel="noopener noreferrer"><i className="bx bxl-instagram-alt"></i></a>
+            <a href="https://www.x.com/m_daniyal011" target="_blank" rel="noopener noreferrer"><i className="bx bxl-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/mohammaddaniaylsidiquie" target="_blank" rel="noopener noreferrer"><i className="bx bxl-linkedin"></i></a>
           </div>
           <a href="https://www.github.com/MDaniyal18" className="btn">Visit Github</a>
         </div>
